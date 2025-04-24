@@ -149,7 +149,7 @@ function App() {
                   const iconurl = `https:${day.day.condition.icon}`;
                   const tempC = day.day.avgtemp_c;
                   return(<div 
-                  className="card"key={index}>
+                  className="card" key={index}>
                     <h3>{weekday}</h3>
                     <img src ={iconurl}alt="weather icon"/>
                <h4>{tempC}°C</h4>
