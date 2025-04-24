@@ -16,11 +16,11 @@ function App() {
         if (condition.includes("sunny")) {
           return { background: "linear-gradient(to bottom,rgb(235, 210, 148),rgb(172, 134, 31))" }; 
         } else if (condition.includes("cloudy")) {
-          return { background: "linear-gradient(to bottom, #d7d2cc, #304352)" };
+          return { background: "linear-gradient(to bottom,rgb(130, 225, 231),rgb(85, 169, 234))" };
         } else if (condition.includes("rain")) {
-          return { background: "linear-gradient(to bottom, #4b6cb7, #182848)" }; 
+          return { background: "linear-gradient(to bottom,rgb(120, 152, 228), #182848)" }; 
         } else if (condition.includes("snow")) {
-          return { background: "linear-gradient(to bottom, #e0fafc, #cfdef3)" }; 
+          return { background: "linear-gradient(to bottom,rgb(149, 232, 238),rgb(121, 211, 244))" }; 
         } else {
           return { background: "linear-gradient(to bottom, #bdc3c7, #2c3e50)" }; 
         }
