@@ -14,13 +14,13 @@ function App() {
         const condition = weather.current.condition.text.toLowerCase();
       
         if (condition.includes("sunny")) {
-          return { background: "linear-gradient(to bottom,rgb(235, 210, 148),rgb(172, 134, 31))" }; 
+          return { background: "linear-gradient(to bottom,#fceabb,#f8b500)" }; 
         } else if (condition.includes("cloudy")) {
-          return { background: "linear-gradient(to bottom,rgb(130, 225, 231),rgb(85, 169, 234))" };
+          return { background: "linear-gradient(to bottom,#acb6e5,#86fde8)" };
         } else if (condition.includes("rain")) {
-          return { background: "linear-gradient(to bottom,rgb(120, 152, 228), #182848)" }; 
+          return { background: "linear-gradient(to bottom,#FFFFFF,#6DD5FA,#2980B9))" }; 
         } else if (condition.includes("snow")) {
-          return { background: "linear-gradient(to bottom,rgb(149, 232, 238),rgb(121, 211, 244))" }; 
+          return { background: "linear-gradient(to bottom,#F0F2F0,#000C40))" }; 
         } else {
           return { background: "linear-gradient(to bottom, #bdc3c7, #2c3e50)" }; 
         }

@@ -46,6 +46,10 @@ align-items: center;
   border-radius: 10px;
   cursor: pointer;
   color: azure;
+  transition:transform 0.2s;
+}
+#btn:hover{
+          transform:scale(1.05);
 }
 .child2{
   display: flex;
@@ -162,6 +166,8 @@ align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .info{
+  width:100px;
+  height:130px;
   background-color: rgba(198, 209, 231, 0.84);
   border-radius: 10px;
   align-items: center;
@@ -171,6 +177,7 @@ align-items: center;
   flex-direction: column;
   row-gap: 10px;
   transition: transform 0.2s;
+  color:black;
 }
 .info:hover{
   transform:scale(1.05);
